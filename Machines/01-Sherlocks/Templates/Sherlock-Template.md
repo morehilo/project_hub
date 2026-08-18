@@ -9,29 +9,38 @@ date: <% tp.date.now("hh:mm a - MMMM DD, YYYY") %>
 
 # <% tp.file.title %>
 
+
+# Background
 ## Scenario
 
+>
 
-## Timeline
-| Timestamp (UTC) | Event | Source | Notes |
-|-----------------|-------|--------|-------|
-|                 |       |        |       |
 
 ## Analysis
 
-### Initial Triage
+### Data
 
 
-### Log / Artifact Analysis
+### Q & A
+
+#### Task 1
 
 
-## Answers
-1. 
-2. 
-3. 
+## Incident Timeline
 
-## Lessons Learned / Key Findings
+| Timestamp (UTC) | Event | Source | Notes |
+|-----------------|-------|--------|-------|
+|                 |       |        |       |
+|                 |       |        |       |
+|                 |       |        |       |
+|                 |       |        |       |
+|                 |       |        |       |
+
+## Lessons Learned / Key Findings / Important to remember
+
 - 
 
 ## Related Techniques
+
 - 
+
