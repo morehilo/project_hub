@@ -1,6 +1,6 @@
-workspace.json
-workspace-mobile.json
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-.obsidian/cache/
 .DS_Store
+Thumbs.db
+
+Machines/.obsidian/
+
+Machines/99-Nots/
