@@ -16,7 +16,7 @@ date: 04:45 pm - September 09, 2026
 
 >The IDS device alerted us to a possible rogue device in the internal Active Directory network. The Intrusion Detection System also indicated signs of LLMNR traffic, which is unusual. It is suspected that an LLMNR poisoning attack occurred. The LLMNR traffic was directed towards Forela-WKstn002, which has the IP address 172.17.79.136. A limited packet capture from the surrounding time is provided to you, our Network Forensics expert. Since this occurred in the Active Directory VLAN, it is suggested that we perform network threat hunting with the Active Directory attack vector in mind, specifically focusing on LLMNR poisoning.
 
-*%%LLMNR (Link-Local Multicast Name Resolution) is a Windows protocol that broadcasts name resolution queries when DNS fails. Because it lacks authentication, an attacker on the same local network can respond to these broadcasts, impersonating the requested host. The victim then attempts to authenticate, sending its NTLM hash to the attacker, who captures it for offline cracking or relaying to other systems.%%*
+*LLMNR (Link-Local Multicast Name Resolution) is a Windows protocol that broadcasts name resolution queries when DNS fails. Because it lacks authentication, an attacker on the same local network can respond to these broadcasts, impersonating the requested host. The victim then attempts to authenticate, sending its NTLM hash to the attacker, who captures it for offline cracking or relaying to other systems.*
 ## Analysis
 
 ### Data
