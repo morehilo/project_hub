@@ -49,8 +49,6 @@ However, more context was needed: I proceeded to filter for DNS traffic (`dns`) 
 
 <img src="evidence/Noxious-1788459259863.webp" width="700">
 
-But, as seen in the first image of this task, the LLMNR poisoning attack must have happened over IPv6, using link-local addresses (`fe80::...`). This is a typical behavior, since Windows prioritizes IPv6 over IPv4.
-
 Re-displaying now the capture with the UDP 5355 filter, paying attention I saw that the query was asked to DCC01, that's the typo it made the LLMNR attack possible:
 
 <img src="evidence/Noxious-1789046522907.webp" width="700">
