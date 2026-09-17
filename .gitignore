@@ -1,6 +1,7 @@
-.DS_Store
-Thumbs.db
-
-Machines/.obsidian/
-
-Machines/99-Nots/
+*
+!.gitignore
+!Machines/
+!Machines/00-Dashboard/
+!Machines/00-Dashboard/**
+!Machines/01-Sherlocks/
+!Machines/01-Sherlocks/**
