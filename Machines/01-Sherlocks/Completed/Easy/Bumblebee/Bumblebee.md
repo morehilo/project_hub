@@ -156,11 +156,10 @@ Once again, and even more clearly than before, I confirmed the username of the e
 
 ***What IP address did the contractor use to create their account?***
 
-Both accounts came from the same IP, so I checked their registration records:
+Both accounts came from the same IP, so I checked their registration records and cross-checked it with *phpbb_log*::
 
 <img src="./Evidence/Bumblebee-1791476035701.webp" width="700">
 
-So, I checked in *phpbb_log*:
 
 ```sql
 SELECT log_id, log_type, user_id, log_ip,
@@ -216,7 +215,7 @@ CREATE TABLE `phpbb_posts` (
 );
 ```
 
-Since `poster_id` should match the `user_id` that made the post, I took ID 52, which corresponded to the username *apoole1*, as previously seen, and queried:
+Since `poster_id` should match the `user_id` that made the post, I took ID 52, which corresponded to the username *apoole1*, as previously seen, and executed:
 
 <img src="./Evidence/Bumblebee-1791537876839.webp" width="700">
 
@@ -316,7 +315,7 @@ There, the requested password is: **Passw0rd1**
 
 ***What is the user agent of the Administrator user?***
 
-As seen in the first question's answer, the admin IP was: 
+As seen in the first question's answer, the admin IP was: **10.255.254.2**
 
 <img src="./Evidence/Bumblebee-1791554685693.webp" width="700">
 
